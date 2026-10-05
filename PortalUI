@@ -1156,5 +1156,15 @@ UIStroke_10.Transparency = 0
 UIStroke_10.Parent = LayoutDrag_7
 
 
-local reconpenis = game:GetService("Players").LocalPlayer.PlayerGui.MobileCombatGui.Buttons.Block
-local dildo = game:GetService("Players").LocalPlayer.PlayerGui.MobileCombatGui.Buttons.Dash
+local fist = game:GetService("Players").LocalPlayer.PlayerGui.MobileCombatGui.Buttons.Block
+local dash = game:GetService("Players").LocalPlayer.PlayerGui.MobileCombatGui.Buttons.Dash
+local jump = game:GetService("Players").LocalPlayer.PlayerGui.MobileCombatGui.Buttons.Jump
+local punch = game:GetService("Players").LocalPlayer.PlayerGui.MobileCombatGui.Buttons.Punch
+local sl = game:GetService("Players").LocalPlayer.PlayerGui.MobileCombatGui.Buttons.ShiftLock
+local special = game:GetService("Players").LocalPlayer.PlayerGui.MobileCombatGui.Buttons.Special
+fist:Destroy()
+dash:Destroy()
+jump:Destroy()
+punch:Destroy()
+sl:Destroy()
+special:Destroy()
